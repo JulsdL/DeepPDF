@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-community
+langchain-openai
+qdrant-client
+tiktoken
+pymupdf
+python-dotenv
