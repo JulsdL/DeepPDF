@@ -1,3 +1,9 @@
+## v0.1.1 (2024-05-01)
+
+### Added
+
+- Implemented MultiQueryRetriever strategy for improved context retrieval in the PDF RAG QA application.
+
 ## v0.1.0 (2024-05-01)
 
 ### Added
