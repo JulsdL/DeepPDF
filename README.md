@@ -1,3 +1,12 @@
+---
+title: DeepPDF AO
+emoji: 📖
+colorFrom: pink
+colorTo: yellow
+sdk: docker
+pinned: false
+---
+
 # DeepPDF AI
 
 DeepPDF AI is a specialized application designed to process and interact with PDF documents using advanced AI techniques. It leverages the power of large language models to provide insightful answers to queries based on the contents of the documents. This README outlines the project structure and provides instructions on how to build and run the application.
