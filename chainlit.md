@@ -24,7 +24,7 @@ To get started with DeepPDF AI:
 
 # The Tech Touch 💡🤖
 
-- Token Tinkering: By breaking down the text using tiktoken, we ensure our AI understands and processes each piece effectively.
+- Smart Splitting Strategy: Dive into document analysis with our RecursiveCharacterTextSplitter that smartly sections PDFs into digestible, bite-sized chunks. This isn't just chopping up text; it's an artful dance of precision, ensuring each slice preserves the full flavor of your document's logical and semantic integrity.
 - Embedding Elixir: Powered by OpenAIEmbeddings, we turn text into searchable vectors that capture deep semantic meanings.
 - Retrieval Rodeo: Leveraging the Qdrant vector store, our system retrieves context that is as relevant as it gets.
 - MultiQuery Mastery: Our MultiQueryRetriever doesn’t just take your query at face value — it gets creative, generating three clever variations of your question to boost the chances of uncovering exactly what you need. For instance, if you ask, "Who are Meta's 'Directors'?", it spins this into:

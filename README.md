@@ -1,5 +1,5 @@
 ---
-title: DeepPDF AO
+title: DeepPDF AI
 emoji: 📖
 colorFrom: pink
 colorTo: yellow

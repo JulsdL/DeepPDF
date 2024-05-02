@@ -1,3 +1,11 @@
+## v0.1.4 (2024-05-02)
+
+### Added
+
+- Introduced the RAGAS evaluation tool for assessing the performance of the RAG application, comparing the baseline with the MultiQueryRetriever strategy.
+- Saved the RAGAS test set in csv for later evaluation and comparison.
+- Updated `chainlit.md` Tech Touch section.
+
 ## v0.1.3 (2024-05-02)
 
 ### Added
