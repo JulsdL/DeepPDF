@@ -24,7 +24,7 @@ To get started with DeepPDF AI:
 
 # The Tech Touch 💡🤖
 
-- Token Tinkering: By breaking down the text using tiktoken, we ensure our AI understands and processes each piece effectively.
+- Text splitting: By breaking down the text into small chunks, we ensure our AI understands and processes each piece effectively.
 - Embedding Elixir: Powered by OpenAIEmbeddings, we turn text into searchable vectors that capture deep semantic meanings.
 - Retrieval Rodeo: Leveraging the Qdrant vector store, our system retrieves context that is as relevant as it gets.
 - MultiQuery Mastery: Our MultiQueryRetriever doesn’t just take your query at face value — it gets creative, generating three clever variations of your question to boost the chances of uncovering exactly what you need. For instance, if you ask, "Who are Meta's 'Directors'?", it spins this into:
