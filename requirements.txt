@@ -7,4 +7,4 @@ tiktoken==0.6.0
 pymupdf==1.24.2
 python-dotenv==1.0.1
 chainlit==0.7.700
-openai==1.24.1
+uvicorn==0.23.2
