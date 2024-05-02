@@ -1,17 +1,19 @@
 import os
-from langchain_openai import ChatOpenAI
-from langchain_community.document_loaders import PyMuPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-import tiktoken
-from langchain_openai.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores import Qdrant
-from langchain_core.prompts import ChatPromptTemplate
-from langchain.retrievers import MultiQueryRetriever
-from langchain_core.runnables import RunnablePassthrough
-from dotenv import load_dotenv
 from operator import itemgetter
+
 import chainlit as cl
-from chainlit.playground.providers import ChatOpenAI
+import tiktoken
+from dotenv import load_dotenv
+
+
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.retrievers import MultiQueryRetriever
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+from langchain_community.document_loaders import PyMuPDFLoader
+from langchain_community.vectorstores import Qdrant
+from langchain_openai import ChatOpenAI
+from langchain_openai.embeddings import OpenAIEmbeddings
 
 # Load environment variables
 load_dotenv()
